@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
 @import "bootstrap";
 
 .booyah-box {
@@ -25,4 +27,10 @@ body {
 .navbar {
   background: image_url('qbkls.png');
   box-shadow: 3px 3px 3px 3px #ccc;
+}
+
+.navbar-brand {
+  color: #04A5AE !important;
+  font-family: "Helvetica Neue", Helvetica, sans serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
