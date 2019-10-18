@@ -75,6 +75,7 @@ gem 'will_paginate-bootstrap4'
 end
 
 gem "font-awesome-rails"
+gem 'devise'
 
 
 
