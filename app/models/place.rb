@@ -1,6 +1,6 @@
 class Place < ApplicationRecord
   belongs_to :user
-  belongs_to :photos
+  has_many :photos
   has_many :comments
 
   
