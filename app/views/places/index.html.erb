@@ -20,7 +20,11 @@
       </blockquote>
     </div>
   <% end %>
-
+      <% if place.photos.present? %>
+      <img>
+        <%= image_tag place.photos.last.picture.url %>
+        </img>
+      <% end %>
   </div>
 
 <% end %>
